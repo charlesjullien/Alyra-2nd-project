@@ -195,11 +195,11 @@ const { developmentChains } = require("../helper-hardhat-config")
             });
 
              // CHECKS IF USER CAN VOTE AND SEE PROPOSAL INDEX
-           it("", async () => {
+           it("Should set the votedProposalId at the same index the user voted for", async () => {
             await votingInstance.startVotingSession();
             await votingInstance.setVote(3);
             let voter = await votingInstance.getVoter(deployer.address);
-            assert(voter.votedProposalId.toString() === "3");
+            assert(voter.votedProposalId == 3);
            });
 
             // CHECKS IF THE EVENT HAS VOTED IS EMITTED
