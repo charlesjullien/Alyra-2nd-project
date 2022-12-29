@@ -7,3 +7,7 @@ This is a unit test javascript file for the https://github.com/lecascyril/CodesR
 I did my unit tests in a quite basic way... simply following the stages of the Workflow from the SC.
 
 I created sample users to do my tests : bob, alice, pamela and jonny. The Owner is called deployer.
+
+use : 
+
+yarn hardhat tes
