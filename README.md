@@ -10,4 +10,4 @@ I created sample users to do my tests : bob, alice, pamela and jonny. The Owner 
 
 use : 
 
-yarn hardhat tes
+yarn hardhat test
